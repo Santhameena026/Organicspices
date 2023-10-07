@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.5);
+    padding: 0.5rem 5rem;
+}
+#logo{
+    font-weight: 600;
+    font-size: 30px;
+}
+ul a{
+    color:white !important;
+}
+ul a:hover{
+    border-bottom:1px solid red;
+    color:rgb(9, 196, 9) !important;
+}
+#login{
+    background-color:rgb(9, 196, 9) ;
+    border-radius: 15px;
+    width:100px;
+}
+#login:hover{
+border-width: 5px;
+border-color: darkgreen;
+font-weight: 400;
+}
+.center{
+    margin-top:200px;
+}
+
+
+.carousel-item{
+    max-width:100%;
+    max-height:700px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;  
+}
+
+#about{
+    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(219, 22, 22),rgb(11, 83, 11));
+}
+#about h1{
+    font-weight:800;
+    font-size: 40px;
+    color:white;
+
+}
+#about p{
+    color:white;
+}
+#products{
+    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+}
+#products img{
+    width:250px;
+    height:200px;
+}
+#products .card{
+    width:250px;
+    height:300px;
+    background-color:#e6dcdc !important;
+    box-shadow: 14px 18px 15px rgba(0,0,0,0.5),inset 5px 5px 10px white;
+    border:none;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3),
+                inset -4px -4px 10px white !important;
+    cursor: pointer;
+}
+#products h1{
+      font-size: 50px;
+      text-shadow:2px 2px yellowgreen ;
+}
+.card .btn{
+    background-color: rgb(9, 196, 9);
+    border:2px solid  rgb(11, 83, 11);
+}
+.card .btn:hover{
+    background-color: rgb(11, 83, 11);
+    color:white;
+    font-weight:500;
+    border:2px solid rgb(228, 14, 14);
+}
+.card-body h5{
+    font-weight: 600;
+}
+
+#register{
+    
+    background: linear-gradient(rgb(197, 197, 10),rgb(3, 97, 3));
+   
+}
+#register h1{
+    
+    font-size:40px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+#register label{
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+#register button{
+ margin-top: 15px;
+}
+#register #buy{
+
+    background-color: brown;
+    color:white;
+    border-radius:15px;
+    text-align: center;
+    border:3px solid green;
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.7) ;
+}
+
+#review{
+    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(211, 212, 206);
+}
+#review img{
+    padding-top:10px;
+    width:200px;
+    height:230px;
+}
+#review .card{
+    width:250px;
+    height:350px;
+    background-color:#e6dcdc !important;
+    box-shadow: 14px 18px 15px rgba(0,0,0,0.5),inset 5px 5px 10px white;
+    border:none;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+    
+}
+.contact{
+    background-color: black;
+    color:white;
+    }
+.contact ul{
+    list-style-type: none;     
+}  
+.contact a{
+    text-decoration: none;
+}  
+.contact a:hover{
+    border-bottom:none;
+    color:red !important;
+}
+.contact h4{
+    color:yellow;
+}
+.contact li:hover{
+     color:red !important;
+}
+.login button{
+    background-color: green !important;
+    border-radius: 25px;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    border:3px solid rgb(99, 94, 94);
+    
+}
+.login button:hover{
+    background-color: darkgreen;
+}
+.login input:hover{
+    background-color: rgb(240, 159, 159);
+    border: 3px solid yellowgreen;
+}
+.login input{
+    border:3px solid rgb(139, 130, 130);
+    border-radius: 25px;
+}
+.login h1{
+    font-size: 45;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.login label{
+    font-weight:700;
+    font-size: 18px;
+}
+#register input:hover{
+    background-color:rgb(203, 71, 71);
+    color:white;
+    border: 3px solid darkgreen;
+}
+#register input{
+    border-radius: 25px;
+}
+#register label{
+    font-size: 18px;
+    color:rgb(47, 45, 45);
+}
+#register h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45;
+}
+#review h1{
+    font-size: 45;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;  
+}
+.carousel-caption{
+    bottom:220px;
+    
+}
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width:60%;
+    margin:auto;
+    font-size: 18px;
+    line-height: 1.9;
+
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: green;
+    color:white;
+    padding:8px 15px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
